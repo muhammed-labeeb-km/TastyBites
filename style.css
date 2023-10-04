@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    background-color:white;
+}
+.navBar{
+    margin-top: 20px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    /* color: gainsboro; */
+    border: solid black;
+    background-color: white;
+    padding: 2px;
+}
+.tasty{
+    color: orange;
+}
+.menu{
+    align-items: center;
+    display: flex;
+}
+
+.spann{
+    /* border: solid black 1px; */
+    /* border-radius: 6px; */
+    background-color: white;
+    margin-left: 15px;
+    padding: 2px;
+}
+.spann:hover{
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: orange
+}
+.ImgM{
+    /* width: 42%; */
+}
+
+.img1{
+    width: 100%;
+}
+
+.Main{
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-between;
+}
+
+.mainHeading{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    align-self: center;
+
+
+}
+
+.oran{
+    color: orange;
+}
+.download{
+    position: absolute;
+    background-color: rgb(246, 187, 77);
+    /* background-color: transparent; */
+    /* color: orange; */
+    border: none;
+    border-radius: 5px;
+    height: 3%;
+    margin-top: 8%;
+    /* margin-left: -10px; */
+}
+
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards4Cat{
+    /* background-color: orange; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border-radius: 30px;
+    width: 200px;
+    transition: all 3s ease;
+}
+
+.cards4Cat:hover{
+    /* background-color: orange; */
+    /* transform: scale(1.1); */
+    /* color: white!important; */
+    cursor: pointer;
+}
+
+.catHeading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    display: flex;
+    color: orange;
+    justify-content: center;
+    font-size: 30px;
+}
+.fit{
+    width: 100%;
+}
+.sub{
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+.burgscheck{
+    background-color: orange!important;
+    transform: scale(1.1);
+    color: white !important;
+}
+.whitetext{
+    color: white !important;
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-weight: 600;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    height: 280px;
+    width: 200px;
+    background-color:orange ;
+    border-radius: 29px;
+    margin-top: 10px;
+}
+.headingFood{
+    margin-top: 5%;
+    display: flex;
+    color: grey;
+    justify-content: center;
+    font-size: 19px;
+}
+.burgerBlack{
+    color: orange !important;
+}
+.forMargin{
+    margin-left: 3%;
+}
+/* .singleCol{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.mt{
+    margin-top: 3%;
+}
+
+.burger{
+    width: 100%;
+}
+.veggie{
+    margin-top: -100px;
+}
+.burgName{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    
+}
+.burgPrice{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.umami{
+    margin: 20px 0px 49px 30px;
+    transform: scale(1.1);
+}
+.hamBurger{
+    margin: 25px -10px 43px 0;
+}
+.bbq{
+    transform: scale(0.9);
+    margin-bottom: 27px;
+    margin-top: -16px;
+}
+.impossible{
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+.falafel{
+    transform: scale(1.2);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.bottom{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.fa-bars {
+    color: black;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 90%;
+    top: 30px;
+    opacity: 0;
+    /* font-weight: 700; */
+}
+@media screen and (max-width: 600px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+    }
+
+    .fa-bars{
+        opacity: 1;
+        width: 40px;
+        height: 40px;
+    }
+    .menu{
+        display: none;
+    }
+    .Main{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainHeading{
+        padding: 10px;
+        padding-left: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
